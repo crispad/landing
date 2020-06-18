@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './Components/Footer';
 import content_team from './Images/content_team.png';
 import NavBar from './Components/NavBar';
-//import './App.css';
+import './App.css';
 
 function App() {
   return (
