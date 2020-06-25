@@ -4,7 +4,7 @@ import React from 'react';
 function Footer() {
   return (
     <div className="Footer">
-  <h6>Footer</h6>
+   &copy; Copyright 2020 
     </div>
   );
 }
