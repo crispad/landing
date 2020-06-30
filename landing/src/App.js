@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './Components/Footer';
 import content_team from './Images/content_team.png';
-import { Button, Checkbox, Form } from 'semantic-ui-react'
+import { Button, Form } from 'semantic-ui-react'
 import NavBar from './Components/NavBar';
 import './App.css';
 
@@ -19,9 +19,9 @@ function App() {
       <label>Last Name</label>
       <input placeholder='Last Name' />
     </Form.Field>
-    <Form.Field>
+    {/* <Form.Field>
       <Checkbox label='I agree to the Terms and Conditions' />
-    </Form.Field>
+    </Form.Field> */}
     <Button type='submit'>Submit</Button>
   </Form>
       <Footer />
