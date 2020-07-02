@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Components/Footer";
 import content_team from "./Images/content_team.png";
+import creative from "./Images/creative.png";
 import { Button, Form } from "semantic-ui-react";
 import NavBar from "./Components/NavBar";
 import "./App.css";
@@ -26,9 +27,13 @@ function App() {
             <Button type="submit">Submit</Button>
           </div>
         </Form>
+        <div className="creative">
+          <img src={creative} alt="creative" className="creative" />
+  </div>
       </div>
       <Footer />
     </div>
+    
   );
 }
 
